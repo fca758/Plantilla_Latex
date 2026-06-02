@@ -29,27 +29,6 @@
 \definecolor{verdecod}{HTML}{267326}
 \definecolor{rojocod}{HTML}{8B0000}
 
-% Estilo de código Python
-\lstdefinestyle{pythonstyle}{
-    backgroundcolor=\color{griscode},
-    basicstyle=\ttfamily\footnotesize,
-    keywordstyle=\color{azulcod}\bfseries,
-    commentstyle=\color{gray}\itshape,
-    stringstyle=\color{rojocod},
-    numbers=left,
-    numberstyle=\tiny\color{gray},
-    numbersep=8pt,
-    tabsize=4,
-    breaklines=true,
-    frame=single,
-    framerule=0.4pt,
-    rulecolor=\color{gray!40},
-    language=Python,
-    showstringspaces=false,
-    captionpos=b,
-    morekeywords={np, cv2, plt, tuple, None}
-}
-
 % --- Configuración de Márgenes ---
 \geometry{
     a4paper,
@@ -146,7 +125,7 @@
 
 % --- ÍNDICE ---
 % La segunda página suele ir sin encabezado o con estilo plano
-\pagestyle{plain} 
+\pagestyle{empty} 
 \renewcommand{\contentsname}{ÍNDICE} % 
 \tableofcontents 
 \newpage
